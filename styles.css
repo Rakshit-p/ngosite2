@@ -1,0 +1,542 @@
+
+.gallery {
+  padding-left: 550px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.cont{
+  position: relative;
+  text-align: center;
+}
+
+.explore {
+  position: absolute;
+  bottom: 95px;
+  left: 675px;
+  color: #3DB2FF;
+}
+
+h4 {
+  color: #FFC900;
+}
+
+h3{
+  color: #406882;
+}
+
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #3DB2FF;
+	fill: transparent;
+	stroke-width: 4px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s;
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s;
+}
+
+.arrows path.a3 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s;
+}
+
+
+.mainpic {
+  height: 920px;
+  width: 100%;
+}
+
+.logo {
+  height:85px;
+  width:85px;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+div.highlight a:before
+{
+    position: absolute;
+    color: #FFF;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    overflow: hidden;
+    content: attr(alt);
+    transition: all 0.3s;
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+div.highlight a:hover:before
+{
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Highlight text in  */
+div.highlight a
+{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+div.highlight a:before
+{
+    transform: scale(1.2);
+}
+
+/* new added css*/
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.meet {
+  padding-top: 50px;
+}
+
+.container1{
+  text-align: justify;
+}
+
+.top-container {
+  margin-left: 0;
+}
+
+#about {
+  /*padding: 10px;*/
+  height : 300px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+}
+
+#d1 {
+  position: center;
+  color: #676FA3;
+  font-family: 'Libre Baskerville', serif;
+
+
+}
+
+#d2 {
+  /*text-align: justify;*/
+  margin-bottom: 40px;
+  padding-left: 400px;
+  padding-right: 400px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#d3 {
+  text-align: justify;
+  margin-bottom: 10px;
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-top: 35px;
+  color: #676FA3;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.ok {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+.Contact {
+  width: 100%;
+}
+
+.location1 {
+  height: 100px;
+  width: 100px;
+}
+
+.email1 {
+  height: 100px;
+  width: 100px;
+}
+
+.phone1 {
+  height: 100px;
+  width: 100px;
+}
+
+.start {
+  height:500px;
+  width:100%;
+  background-color: red;
+}
+
+.contact-info {
+max-width: 500px;
+line-height: 65px;
+padding-left: 50px;
+font-size: 10px;
+}
+
+.contact-info i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.box {
+  background-color: #676FA3;
+  height: 3px;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.box1 {
+  background-color: #676FA3;
+  height: 3px;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+/* ------------- VAJRA ---------- */
+
+.vajra {
+  height: 300px;
+  width: 350px;
+  float: left;
+  padding-right: 70px;
+  margin-bottom: 50px;
+  border: 3px #555;
+}
+
+.image1 {
+  font-family: 'Libre Baskerville', serif;
+  width: 75%;
+  margin: 90px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* ------------- PRANAV ---------- */
+
+.pranav {
+  height: 300px;
+  width: 350px;
+  float: left;
+  padding-right: 70px;
+}
+
+.image2 {
+  font-family: 'Libre Baskerville', serif;
+  width: 75%;
+  margin: 90px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* ------------- SAVYA ---------- */
+
+.savya {
+  height: 350px;
+  width: 350px;
+  float: left;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+.image3 {
+  font-family: 'Libre Baskerville', serif;
+  width: 75%;
+  margin: 90px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* ------------- DEV ---------- */
+
+.dev {
+  height: 350px;
+  width: 350px;
+  float: left;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+.image4 {
+  font-family: 'Libre Baskerville', serif;
+  width: 75%;
+  margin: 90px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* ------------- SID ---------- */
+
+.sid {
+  height: 350px;
+  width: 350px;
+  float: left;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+.image5 {
+  font-family: 'Libre Baskerville', serif;
+  width: 75%;
+  margin: 90px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* ------------- KASH ---------- */
+
+.kash {
+  height: 350px;
+  width: 350px;
+  float: left;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+.image6 {
+  font-family: 'Libre Baskerville', serif;
+  width: 75%;
+  margin: 90px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* ------------- BHAVIKA ---------- */
+
+.bhavika {
+  height: 350px;
+  width: 350px;
+  float: left;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+.image7 {
+  font-family: 'Libre Baskerville', serif;
+  width: 75%;
+  margin: 90px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* ------------- SAHIL ---------- */
+
+.sahil {
+  height: 350px;
+  width: 350px;
+  float: left;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+.image8 {
+  font-family: 'Libre Baskerville', serif;
+  width: 75%;
+  margin: 90px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: rightly;
+  justify-content: center;
+}
+
+form {
+  width: 90%;
+  max-width: 600px;
+}
+
+.input-group{
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid black;
+  color: black;
+  background: transparent;
+  font-size: 15px;
+}
+
+textarea{
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid black;
+  color: black;
+  background: transparent;
+  font-size: 15px;
+}
+
+label{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: grey;
+  cursor: text;
+  transition: 0.2s;
+}
+
+button{
+  padding: 10px 0;
+  color: black;
+  outline: none;
+  background: transparent;
+  border: 1px solid black;
+  width: 100%;
+  cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+  top: -35px;
+  font-size: 14px;
+}
+
+/* navbar new */
+nav{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.8)
+  border-bottom: 1px solid #fff;
+}
+
+.logo {
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#fff;
+}
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 1300px) {
+
+  #d2 {
+    /*text-align: justify;*/
+    margin-bottom: 40px;
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+
+
+
+
+}
+
+@media screen and (min-width: 900px) {
+
+  #d2 {
+    /*text-align: justify;*/
+    margin-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+
+}
+
+@media screen and (min-width: 1500px) {
+
+  .explore {
+    position: absolute;
+    bottom: 95px;
+    padding-left: 210px;
+    color: #3DB2FF;
+  }
+
+#d2 {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+}
+
+@media screen and (max-width: 1100px) {
+  #d2{
+  margin-bottom: 90px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+}

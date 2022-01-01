@@ -1,0 +1,110 @@
+body {
+
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.heading {
+  padding-top: 30px;
+  background-color: #95D1CC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background-color: #95D1CC;
+  width: 100%;
+  height: 220vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  width: 90%;
+  max-width: 600px;
+}
+
+.input-group{
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid black;
+  color: black;
+  background: transparent;
+  font-size: 15px;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: black;
+  cursor: text;
+  transition: 0.2s;
+}
+
+button {
+  padding: 10px 0;
+  color: black;
+  outline: none;
+  background: transparent;
+  border: 1px solid black;
+  width: 100%;
+  cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+  top: -35px;
+  font-size: 14px;
+}
+
+#name {
+
+}
+
+#email {
+}
+
+#social {
+
+}
+
+#why {
+
+}
+
+#what {
+}
+
+#accepted{
+
+}
+
+#have {
+}
+
+#skills {
+
+}
+
+#comments {
+
+}
+
+#navbarmain {
+  background: transparent;
+}
