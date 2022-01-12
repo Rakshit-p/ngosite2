@@ -1,15 +1,146 @@
+body {
+  background-color: #95D1CC;
+}
+
 .projects {
   padding-left: 300px;
   padding-right: 300px;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 29px;
 }
 
+.project {
+  padding-left: 300px;
+  padding-right: 300px;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 29px;
+}
+
+
 #carouselExampleControls {
-  height: 700px;
-  width: 700px;
+  height: 525px;
+  width: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 400px;
+  margin-left: 300px;
   margin-top: 0;
   padding-top: 0;
+}
+
+.slides {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+h1 {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  color: #4C0027;
+}
+
+.box {
+  background-color: #676FA3;
+  height: 3px;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #781C68;
+}
+
+
+@media screen and (max-width: 449px) {
+  .projects {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .project {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #carouselExampleControls {
+    height: 525px;
+    width: 380px;
+    margin-left: 15px;
+  }
+}
+
+
+@media (min-width: 450px) and (max-width: 730px) {
+  .projects {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .project {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  #carouselExampleControls {
+    height: 525px;
+    width: 450px;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 731px) and (max-width: 1000px) {
+  .projects {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .project {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #carouselExampleControls {
+    height: 525px;
+    width: 550px;
+    margin-left: 50px;
+
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1350px) {
+  .projects {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .project {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  #carouselExampleControls {
+    height: 525px;
+    width: 550px;
+    margin-left: 50px;
+
+  }
+}
+
+@media screen and (min-width: 1351px) {
+  .projects {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .project {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  #carouselExampleControls {
+    height: 525px;
+    width: 550px;
+    margin-left: 50px;
+
+  }
+
 }

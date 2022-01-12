@@ -1,11 +1,18 @@
-
-.gallery {
-  padding-left: 550px;
-  margin-bottom: 50px;
-  text-align: center;
+#gallery {
+  /*padding-left: 550px;*/
+  margin-bottom: 30px;
+  position: center;
+  color: #676FA3;
+  font-family: 'Libre Baskerville', serif;
 }
 
-.cont{
+#d1 {
+  position: center;
+  color: #676FA3;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.cont {
   position: relative;
   text-align: center;
 }
@@ -18,63 +25,81 @@
 }
 
 h4 {
-  /*color: #FFC900;*/
-  color: blue;
+  color: #FFC900;
+  /*color: blue;*/
 }
 
-h3{
+h3 {
   color: #406882;
 }
 
-
 .arrows {
-	width: 60px;
-	height: 72px;
-	position: absolute;
-	left: 50%;
-	margin-left: -30px;
-	bottom: 20px;
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
 }
 
 .arrows path {
-	stroke: #3DB2FF;
-	fill: transparent;
-	stroke-width: 4px;
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite;
+  stroke: #3DB2FF;
+  fill: transparent;
+  stroke-width: 4px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
 }
 
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
+@keyframes arrow {
+  0% {
+    opacity: 0
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
 }
 
-@-webkit-keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
+@-webkit-keyframes arrow {
+  0% {
+    opacity: 0
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
 }
 
 .arrows path.a1 {
-	animation-delay:-1s;
-	-webkit-animation-delay:-1s;
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
 }
 
 .arrows path.a2 {
-	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s;
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
 }
 
 .arrows path.a3 {
-	animation-delay:0s;
-	-webkit-animation-delay:0s;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
 }
-
 
 .mainpic {
   height: 920px;
@@ -82,8 +107,8 @@ h3{
 }
 
 .logo {
-  height:85px;
-  width:85px;
+  height: 85px;
+  width: 85px;
 }
 
 .nav-item {
@@ -91,39 +116,34 @@ h3{
   padding-right: 18px;
 }
 
-div.highlight a:before
-{
-    position: absolute;
-    color: #FFF;
-    top: 0px;
-    left: 0px;
-    padding: 10px;
-    overflow: hidden;
-    content: attr(alt);
-    transition: all 0.3s;
-    transform: scale(0.8);
-    opacity: 0;
+div.highlight a:before {
+  position: absolute;
+  color: #FFF;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  overflow: hidden;
+  content: attr(alt);
+  transition: all 0.3s;
+  transform: scale(0.8);
+  opacity: 0;
 }
 
-div.highlight a:hover:before
-{
-    transform: scale(1);
-    opacity: 1;
+div.highlight a:hover:before {
+  transform: scale(1);
+  opacity: 1;
 }
 
 /* Highlight text in  */
-div.highlight a
-{
-    color: rgba(0, 0, 0, 0.4);
+div.highlight a {
+  color: rgba(0, 0, 0, 0.4);
 }
 
-div.highlight a:before
-{
-    transform: scale(1.2);
+div.highlight a:before {
+  transform: scale(1.2);
 }
 
 /* new added css*/
-
 .main {
   height: 100%;
   width: 100%;
@@ -133,7 +153,7 @@ div.highlight a:before
   padding-top: 50px;
 }
 
-.container1{
+.container1 {
   text-align: justify;
 }
 
@@ -143,7 +163,7 @@ div.highlight a:before
 
 #about {
   /*padding: 10px;*/
-  height : 300px;
+  height: 300px;
   font-family: 'Montserrat', sans-serif;
   padding-top: 50px;
 }
@@ -152,8 +172,6 @@ div.highlight a:before
   position: center;
   color: #676FA3;
   font-family: 'Libre Baskerville', serif;
-
-
 }
 
 #d2 {
@@ -172,17 +190,18 @@ div.highlight a:before
   margin-top: 35px;
   color: #676FA3;
   font-family: 'Libre Baskerville', serif;
-
 }
 
 .ok {
   text-align: center;
   padding-bottom: 10px;
+  font-family: 'Libre Baskerville', serif;
+  color: #676FA3;
 }
-
 
 .Contact {
   width: 100%;
+  padding-bottom: 70px;
 }
 
 .location1 {
@@ -201,19 +220,19 @@ div.highlight a:before
 }
 
 .start {
-  height:500px;
-  width:100%;
+  height: 500px;
+  width: 100%;
   background-color: red;
 }
 
 .contact-info {
-max-width: 500px;
-line-height: 65px;
-padding-left: 50px;
-font-size: 10px;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 10px;
 }
 
-.contact-info i{
+.contact-info i {
   margin-right: 20px;
   font-size: 25px;
 }
@@ -235,7 +254,6 @@ font-size: 10px;
 }
 
 /* ------------- VAJRA ---------- */
-
 .vajra {
   height: 300px;
   width: 350px;
@@ -254,7 +272,6 @@ font-size: 10px;
 }
 
 /* ------------- PRANAV ---------- */
-
 .pranav {
   height: 300px;
   width: 350px;
@@ -271,7 +288,6 @@ font-size: 10px;
 }
 
 /* ------------- SAVYA ---------- */
-
 .savya {
   height: 350px;
   width: 350px;
@@ -289,7 +305,6 @@ font-size: 10px;
 }
 
 /* ------------- DEV ---------- */
-
 .dev {
   height: 350px;
   width: 350px;
@@ -307,7 +322,6 @@ font-size: 10px;
 }
 
 /* ------------- SID ---------- */
-
 .sid {
   height: 350px;
   width: 350px;
@@ -325,7 +339,6 @@ font-size: 10px;
 }
 
 /* ------------- KASH ---------- */
-
 .kash {
   height: 350px;
   width: 350px;
@@ -343,7 +356,6 @@ font-size: 10px;
 }
 
 /* ------------- BHAVIKA ---------- */
-
 .bhavika {
   height: 350px;
   width: 350px;
@@ -361,7 +373,6 @@ font-size: 10px;
 }
 
 /* ------------- SAHIL ---------- */
-
 .sahil {
   height: 350px;
   width: 350px;
@@ -391,12 +402,12 @@ form {
   max-width: 600px;
 }
 
-.input-group{
+.input-group {
   margin-bottom: 30px;
   position: relative;
 }
 
-input{
+input {
   width: 100%;
   padding: 10px;
   outline: 0;
@@ -406,7 +417,7 @@ input{
   font-size: 15px;
 }
 
-textarea{
+textarea {
   width: 100%;
   padding: 10px;
   outline: 0;
@@ -416,7 +427,7 @@ textarea{
   font-size: 15px;
 }
 
-label{
+label {
   height: 100%;
   position: absolute;
   left: 0;
@@ -427,7 +438,7 @@ label{
   transition: 0.2s;
 }
 
-button{
+button {
   padding: 10px 0;
   color: black;
   outline: none;
@@ -440,22 +451,21 @@ button{
 input:focus~label,
 input:valid~label,
 textarea:focus~label,
-textarea:valid~label{
+textarea:valid~label {
   top: -35px;
   font-size: 14px;
 }
 
 /* navbar new */
-nav{
+nav {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100px;
   padding: 10px 90px;
   box-sizing: border-box;
-  background: rgba(0,0,0,0.8)
-  border-bottom: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.8) border-bottom: 1px solid #fff;
 }
 
 .logo {
@@ -465,10 +475,10 @@ nav{
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  color:#fff;
+  color: #fff;
 }
 
-nav ul{
+nav ul {
   list-style: none;
   float: right;
   margin: 0;
@@ -491,34 +501,25 @@ nav ul li a:hover {
   border-radius: 6px;
 }
 
-@media screen and (min-width: 1300px) {
-
+/*@media screen and (min-width: 1300px) {
   #d2 {
     /*text-align: justify;*/
-    margin-bottom: 40px;
+/*margin-bottom: 40px;
     padding-left: 350px;
     padding-right: 350px;
   }
-
-
-
-
 }
 
 @media screen and (min-width: 900px) {
-
   #d2 {
     /*text-align: justify;*/
-    margin-bottom: 50px;
+/*margin-bottom: 50px;
     padding-left: 200px;
     padding-right: 200px;
   }
-
-
 }
 
 @media screen and (min-width: 1500px) {
-
   .explore {
     position: absolute;
     bottom: 95px;
@@ -526,18 +527,99 @@ nav ul li a:hover {
     color: #3DB2FF;
   }
 
-#d2 {
-  padding-left: 300px;
-  padding-right: 300px;
-}
-
+  #d2 {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
-  #d2{
-  margin-bottom: 90px;
-  padding-left: 150px;
-  padding-right: 150px;
+  #d2 {
+    margin-bottom: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}*/
+@media (min-width: 1001px) and (max-width: 1500px) {
+  #d2 {
+    margin-bottom: 90px;
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+
+  #d3 {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 }
 
+@media (min-width: 850px) and (max-width: 1000px) {
+  #d2 {
+    margin-bottom: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #d3 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
+
+@media (min-width: 630px) and (max-width: 849px) {
+  #d2 {
+    margin-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-bottom: 50px;
+  }
+
+  #d3 {
+    margin-top: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 629px) {
+  #d2 {
+    margin-bottom: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    border-bottom: 50px;
+  }
+
+  #d3 {
+    margin-top: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 70px;
+  }
+}
+  @media (min-width: 370px) and (max-width: 499px) {
+    #d2 {
+      margin-bottom: 90px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 50px;
+      border-bottom: 50px;
+    }
+
+    #d3 {
+      margin-top: 90px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 90px;
+    }
+}
+    .box2 {
+      height: 60px;
+      background-color: #D9D7F1;
+      width: 100%;
+    }
+
+    #box2 {
+      padding-top: 19px;
+    }
