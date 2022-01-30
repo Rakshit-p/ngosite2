@@ -1,5 +1,5 @@
 body {
-
+  background-color: #95D1CC;
   margin: 0;
 }
 
@@ -10,16 +10,17 @@ h1 {
 
 .heading {
   padding-top: 30px;
-  background-color: #95D1CC;
+  margin-bottom: 35px;
+/*  background-color: #95D1CC;*/
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Libre Baskerville', serif;
-
+  /*padding-bottom: 20px;*/
 }
 
 .hero {
-  background-color: #95D1CC;
+  /*background-color: #95D1CC;*/
   width: 100%;
   /*height: 220vh;*/
   height: 190vh;

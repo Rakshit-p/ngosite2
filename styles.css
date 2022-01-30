@@ -201,7 +201,7 @@ div.highlight a:before {
 
 .Contact {
   width: 100%;
-  padding-bottom: 70px;
+  padding-bottom: 90px;
 }
 
 .location1 {
@@ -551,7 +551,13 @@ nav ul li a:hover {
     padding-left: 200px;
     padding-right: 200px;
   }
+
+  .Contact {
+    width: 100%;
+    padding-bottom: 90px;
+  }
 }
+
 
 @media (min-width: 850px) and (max-width: 1000px) {
   #d2 {
@@ -564,6 +570,12 @@ nav ul li a:hover {
     padding-left: 100px;
     padding-right: 100px;
   }
+
+  .Contact {
+    width: 100%;
+    padding-bottom: 90px;
+  }
+
 }
 
 @media (min-width: 630px) and (max-width: 849px) {
@@ -579,6 +591,11 @@ nav ul li a:hover {
     margin-top: 90px;
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .Contact {
+    width: 100%;
+    padding-bottom: 90px;
   }
 }
 
@@ -597,29 +614,42 @@ nav ul li a:hover {
     padding-right: 25px;
     padding-top: 70px;
   }
-}
-  @media (min-width: 370px) and (max-width: 499px) {
-    #d2 {
-      margin-bottom: 90px;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-bottom: 50px;
-      border-bottom: 50px;
-    }
 
-    #d3 {
-      margin-top: 90px;
-      padding-left: 25px;
-      padding-right: 25px;
-      padding-top: 90px;
-    }
+  .Contact {
+    width: 100%;
+    padding-bottom: 90px;
+  }
 }
-    .box2 {
-      height: 60px;
-      background-color: #D9D7F1;
-      width: 100%;
-    }
 
-    #box2 {
-      padding-top: 19px;
-    }
+@media (min-width: 370px) and (max-width: 499px) {
+  #d2 {
+    margin-bottom: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    border-bottom: 50px;
+  }
+
+  #d3 {
+    margin-top: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 90px;
+  }
+
+  .Contact {
+    width: 100%;
+    padding-bottom: 90px;
+  }
+}
+
+.box2 {
+  height: 60px;
+  background-color: #D9D7F1;
+  width: 100%;
+  margin-top: 40px;
+}
+
+#box2 {
+  padding-top: 19px;
+}
